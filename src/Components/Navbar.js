@@ -16,7 +16,7 @@ export default function Navbar(props) {
             </label>
             <aside className="sidebar">
                 <ul className="menu">
-                    <li><Link className="menu-link" to="/home">{props.home}</Link></li>
+                    <li><Link className="menu-link" to="/">{props.home}</Link></li>
                     <li><Link className="menu-link" to="/about">{props.about}</Link></li>
                     <li><Link className="menu-link" to="/projects">{props.projects}</Link></li>
                     <li><Link className="menu-link" to="/contact">{props.contact}</Link></li>
