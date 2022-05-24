@@ -5,9 +5,6 @@ export default function Navbar(props) {
     return (
         <>
             <header className="logo">Scasto</header>
-            <div className="container-fluid">
-                <img src="./Assets/home-icon.png" alt="" className="img-fluid mb-5" />
-            </div>
             <input type="checkbox" id="toggle" className="input-toggler" />
             <label for="toggle" className="menu-toggler">
                 <span className="menu-toggler-line"></span>

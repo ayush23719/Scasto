@@ -34,16 +34,12 @@ a {
 .logo {
   font-size: 3rem;
   font-weight: 500;
-  color: black;
+  color: #202020;
   padding-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   font-size: 2.5rem;
   text-decoration: none;
   white-space: nowrap;
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 .menu-toggler-line {
   width: 60%;

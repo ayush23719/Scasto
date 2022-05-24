@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             <div className="container">
-                <header className="body-text">
+                <header className="body-text" >
                     <span className="greetings">
                         Hello,
                     </span>
@@ -14,9 +14,11 @@ export default function Home() {
                     <span className="field">
                         Web Developer
                     </span>
-                    <img src={require('../Assets/home-icon.png')} class="img-fluid" alt="" />
-                </header>
 
+                </header>
+                <div className="img-body">
+                    <img src={require('../Assets/home-icon.png')} class="img-fluid" alt="" />
+                </div>
             </div>
         </>
     )
