@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   padding: 7rem 3rem;
   box-sizing: border-box;
+  flex-direction: row;
 }
 .img-body {
   box-sizing: border-box;
@@ -32,7 +33,7 @@ body {
 .name-text {
   border-right: 2px solid rgb(255, 223, 108);
   animation: animated-text__1 4s steps(30, end) 1s 1 normal both,
-    animated-cursor__1 900ms steps(30, end);
+    animated-cursor__1 900ms steps(70, end);
 }
 .field {
   border-right: 2px solid white;
@@ -95,4 +96,80 @@ body {
   color: #3f3f3f;
   display: block;
   font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 1.5rem;
+  }
+  .greetings {
+    font-size: 1.2rem;
+  }
+  .name-text {
+    font-size: 1.5rem;
+  }
+  .field {
+    font-size: 0.7rem;
+  }
+  @keyframes animated-text__1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 20rem;
+      border-right-color: white;
+    }
+  }
+
+  @keyframes animated-text__2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 5.6rem;
+    }
+  }
+  .img-fluid {
+    padding: 6rem 0rem;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1068px) {
+  .container {
+    display: flex;
+    padding: 12rem 1.5rem;
+  }
+  .greetings {
+    font-size: 1.5rem;
+  }
+  .name-text {
+    font-size: 1.7rem;
+  }
+  .field {
+    font-size: 0.9rem;
+  }
+  @keyframes animated-text__1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 23rem;
+      border-right-color: white;
+    }
+  }
+
+  @keyframes animated-text__2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 7.2rem;
+    }
+  }
+  .img-fluid {
+    margin-left: -100px;
+    width: 150%;
+    height: 250px;
+  }
 }
