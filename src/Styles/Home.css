@@ -138,7 +138,7 @@ body {
 @media screen and (min-width: 769px) and (max-width: 1068px) {
   .container {
     display: flex;
-    padding: 12rem 1.5rem;
+    padding: 13rem 1.5rem;
   }
   .greetings {
     font-size: 1.5rem;
