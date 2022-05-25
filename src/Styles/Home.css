@@ -112,6 +112,7 @@ body {
   .field {
     font-size: 0.7rem;
   }
+
   @keyframes animated-text__1 {
     from {
       width: 0;
