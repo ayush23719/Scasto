@@ -15,13 +15,13 @@ function App() {
       <Router>
         <Navbar home="Home" about="About" projects="Projects" contact="Contact" />
         <Routes>
-          <Route path="/" element={<Home />}>
+          <Route path="/Scasto" element={<Home />}>
           </Route>
-          <Route path="/about" element={<About />}>
+          <Route path="/Scasto/about" element={<About />}>
           </Route>
-          <Route path="/projects" element={<Projects />}>
+          <Route path="/Scasto/projects" element={<Projects />}>
           </Route>
-          <Route path="/Contact" element={<Contact />}>
+          <Route path="/Scasto/Contact" element={<Contact />}>
           </Route>
         </Routes>
       </Router>

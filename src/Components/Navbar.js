@@ -19,10 +19,10 @@ export default function Navbar(props) {
             </label>
             <aside className={`sidebar `}>
                 <ul className="menu">
-                    <li><Link className="menu-link" to="/" onClick={handleNav}>{props.home}</Link></li>
-                    <li><Link className="menu-link" to="/about" onClick={handleNav}>{props.about}</Link></li>
-                    <li><Link className="menu-link" to="/projects" onClick={handleNav}>{props.projects}</Link></li>
-                    <li><Link className="menu-link" to="/contact" onClick={handleNav}>{props.contact}</Link></li>
+                    <li><Link className="menu-link" to="/Scasto" onClick={handleNav}>{props.home}</Link></li>
+                    <li><Link className="menu-link" to="/Scasto/about" onClick={handleNav}>{props.about}</Link></li>
+                    <li><Link className="menu-link" to="/Scasto/projects" onClick={handleNav}>{props.projects}</Link></li>
+                    <li><Link className="menu-link" to="/Scasto/contact" onClick={handleNav}>{props.contact}</Link></li>
                 </ul>
             </aside>
         </>

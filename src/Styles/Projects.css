@@ -1,0 +1,94 @@
+.myprojects {
+  margin-left: 5rem;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+}
+.cd-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.prj-1 {
+  margin-top: 4rem;
+  font-weight: 300;
+}
+.prj-2 {
+  font-weight: 800;
+  padding: 0 0.5rem;
+  color: #ffdf6c;
+}
+.cd {
+  margin-top: 0rem;
+  width: 100%;
+  flex: 0 0 18.333333%;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease-out;
+}
+.cd:not(:first-child) {
+  margin-left: -40px;
+}
+
+.cd:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.cd:hover ~ .cd {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+.cd-title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 1rem;
+  color: rgb(255, 223, 108);
+}
+.cd-desc {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.img1 {
+  height: 200px;
+  background: url("https://images.pexels.com/photos/1476880/pexels-photo-1476880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  border-radius: 8px 8px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+.img2 {
+  height: 200px;
+  background: url("https://images.pexels.com/photos/8647255/pexels-photo-8647255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  border-radius: 8px 8px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+.img3 {
+  height: 200px;
+  background: url("https://images.pexels.com/photos/246328/pexels-photo-246328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  border-radius: 8px 8px 0 0;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .cd-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .cd {
+    width: 70%;
+    padding: 1rem;
+  }
+  .myprojects {
+    margin-left: 5rem;
+    margin-top: 7rem;
+    font-size: 1.2rem;
+    flex: 0 0 20.333333%;
+  }
+}
