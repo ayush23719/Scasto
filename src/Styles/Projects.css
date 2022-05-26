@@ -19,6 +19,7 @@
   color: #ffdf6c;
 }
 .cd {
+  cursor: pointer;
   margin-top: 0rem;
   width: 100%;
   flex: 0 0 18.333333%;
