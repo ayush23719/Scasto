@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/scasto/static/css/main.6c7ed36e.css",
-    "main.js": "/scasto/static/js/main.c10b8209.js",
-    "static/js/787.02b90cc9.chunk.js": "/scasto/static/js/787.02b90cc9.chunk.js",
-    "static/media/home-icon.png": "/scasto/static/media/home-icon.a157b84349141ff23263.png",
-    "index.html": "/scasto/index.html",
-    "main.6c7ed36e.css.map": "/scasto/static/css/main.6c7ed36e.css.map",
-    "main.c10b8209.js.map": "/scasto/static/js/main.c10b8209.js.map",
-    "787.02b90cc9.chunk.js.map": "/scasto/static/js/787.02b90cc9.chunk.js.map"
+    "main.css": "/Scasto/static/css/main.349991bd.css",
+    "main.js": "/Scasto/static/js/main.7eb5cd8f.js",
+    "static/js/787.02b90cc9.chunk.js": "/Scasto/static/js/787.02b90cc9.chunk.js",
+    "static/media/about-img.png": "/Scasto/static/media/about-img.7d71b8301a753e6790e7.png",
+    "static/media/home-icon.png": "/Scasto/static/media/home-icon.a157b84349141ff23263.png",
+    "index.html": "/Scasto/index.html",
+    "main.349991bd.css.map": "/Scasto/static/css/main.349991bd.css.map",
+    "main.7eb5cd8f.js.map": "/Scasto/static/js/main.7eb5cd8f.js.map",
+    "787.02b90cc9.chunk.js.map": "/Scasto/static/js/787.02b90cc9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c7ed36e.css",
-    "static/js/main.c10b8209.js"
+    "static/css/main.349991bd.css",
+    "static/js/main.7eb5cd8f.js"
   ]
 }
