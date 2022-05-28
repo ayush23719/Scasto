@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import '../Styles/Navbar.css';
 export default function Navbar(props) {
     const [checked, setChecked] = useState(false);
-    const setOverflow = () => {
-        if (checked === false) {
-            document.body.style.overflow = 'hidden';
-        }
-        else {
-            document.body.style.overflow = 'scroll';
-        }
-    }
+    // const setOverflow = () => {
+    //     if (checked === false) {
+    //         document.body.style.overflow = 'hidden';
+    //     }
+    //     else {
+    //         document.body.style.overflow = 'scroll';
+    //     }
+    // }
     const handleNav = () => {
         if (checked === true) {
             setChecked(false);
@@ -20,7 +20,7 @@ export default function Navbar(props) {
     return (
         <>
             <header className="logo">Scasto</header>
-            <input type="checkbox" id="toggle" className={`input-toggler`} checked={checked} onChange={(e) => setChecked(e.target.checked)} onClick={setOverflow} />
+            <input type="checkbox" id="toggle" className={`input-toggler`} checked={checked} onChange={(e) => setChecked(e.target.checked)} />
             <label for="toggle" className="menu-toggler">
                 <span className="menu-toggler-line"></span>
                 <span className="menu-toggler-line"></span>
