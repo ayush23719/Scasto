@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../Styles/Navbar.css';
 export default function Navbar(props) {
@@ -11,6 +11,7 @@ export default function Navbar(props) {
     //         document.body.style.overflow = 'scroll';
     //     }
     // }
+
     const handleNav = () => {
         if (checked === true) {
             setChecked(false);
@@ -26,6 +27,7 @@ export default function Navbar(props) {
                 <span className="menu-toggler-line"></span>
                 <span className="menu-toggler-line"></span>
             </label>
+
             <aside className={`sidebar `} >
                 <ul className="menu">
                     <li><Link className="menu-link" to="/Scasto" onClick={handleNav}>{props.home}</Link></li>

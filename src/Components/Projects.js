@@ -2,9 +2,15 @@ import React from 'react'
 import '../Styles/Project.css'
 
 export default function Projects() {
+    // const myStyle = () => {
+    //     document.body.style.overflow = "scroll-y";
+    // }
+    // useEffect(() => {
+    //     document.body.style.overflow = "scroll-y";
+    // }, []);
     return (
         <>
-            <div class="main">
+            <div class="main" >
                 <h1>My<span className="yellow">Projects</span></h1>
                 <ul class="cards">
                     <li class="cards_item">

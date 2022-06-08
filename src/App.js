@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,7 +14,9 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar home="Home" about="About" projects="Projects" contact="Contact" />
+        <div className="container-scrollbar">
+          <Navbar home="Home" about="About" projects="Projects" contact="Contact" />
+        </div>
         <Routes>
           <Route path="/Scasto" element={<Home />}>
           </Route>
