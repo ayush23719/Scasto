@@ -29,27 +29,27 @@ body {
   overflow: hidden;
 }
 
-.name-text {
+/* .name-text {
   border-right: 2px solid rgb(255, 223, 108);
   animation: animated-text__1 4s steps(30, end) 1s 1 normal both,
     animated-cursor__1 900ms steps(70, end);
-}
+} */
 .field {
   border-right: 2px solid white;
   animation: animated-text__2 4s steps(30, end) 1s 1 normal both,
     animated-cursor__2 900ms steps(30, end) infinite;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  /* -webkit-animation-delay: 5s;
+  animation-delay: 5s; */
 }
 
-@keyframes animated-cursor__1 {
+/* @keyframes animated-cursor__1 {
   from {
     border-right-color: rgb(255, 223, 108);
   }
   to {
     border-right-color: white;
   }
-}
+} */
 
 @keyframes animated-cursor__2 {
   from {
@@ -60,7 +60,7 @@ body {
   }
 }
 
-@keyframes animated-text__1 {
+/* @keyframes animated-text__1 {
   from {
     width: 0;
   }
@@ -68,7 +68,7 @@ body {
     width: 31rem;
     border-right-color: white;
   }
-}
+} */
 
 @keyframes animated-text__2 {
   from {
