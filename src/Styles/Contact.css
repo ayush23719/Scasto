@@ -88,11 +88,11 @@
   }
   .contact-fluid {
     padding: 1rem 0rem;
-    height: 230px;
+    height: auto;
     width: 100%;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1068px) {
+@media screen and (min-width: 768px) and (max-width: 1068px) {
   .container-contact {
     display: flex;
     padding: 10rem 1.5rem;
@@ -111,14 +111,47 @@
     margin-left: -1.6rem;
   }
   .contact-text {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-left: 0rem;
   }
 
   .contact-fluid {
     margin-top: 50px;
-    margin-left: -110px;
-    width: 150%;
-    height: 300px;
+    margin-left: 0px;
+    width: auto;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 819px) {
+  .container-contact {
+    margin-top: 0px;
+    align-items: center;
+    display: flex;
+    padding: 10rem 1.5rem;
+  }
+  .reachmeout {
+    width: 100%;
+  }
+  .txt-3 {
+    font-size: 3.5rem;
+  }
+  .txt-4 {
+    font-size: 3.5rem;
+  }
+  .txt-5 {
+    font-size: 3.5rem;
+    margin-left: -1.6rem;
+  }
+  .contact-text {
+    font-size: 1.7rem;
+    margin-left: 0rem;
+  }
+
+  .contact-fluid {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: auto;
+    height: 450px;
   }
 }

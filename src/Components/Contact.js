@@ -9,7 +9,7 @@ export default function Contact() {
           <span className="contact-text">Want to reach out to me? Sure, why not! </span>
         </header>
         <div className="contact-img">
-          <img src={require('../Assets/contact-img.png')} class="contact-fluid" alt="" />
+          <img src={require('../Assets/contact-img.png')} className="contact-fluid" alt="" />
         </div>
       </div>
     </>
