@@ -1,0 +1,84 @@
+.container-contact {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.reachmeout {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.txt-3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.txt-4 {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 0 1rem;
+  color: #ffdf6c;
+}
+.txt-5 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left: -2rem;
+  color: #ffdf6c;
+}
+
+@media screen and (max-width: 376px) {
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0.5rem;
+  }
+  .txt-3 {
+    font-size: 1.9rem;
+  }
+  .txt-4 {
+    font-size: 1.9rem;
+  }
+  .txt-5 {
+    font-size: 1.9rem;
+    margin-left: -1.8rem;
+  }
+}
+@media screen and (min-width: 377px) and (max-width: 768px) {
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0.5rem;
+  }
+  .txt-3 {
+    font-size: 2rem;
+  }
+  .txt-4 {
+    font-size: 2rem;
+    padding: 0 0.7rem;
+  }
+  .txt-5 {
+    font-size: 2rem;
+    margin-left: -1.6rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1068px) {
+  .container-contact {
+    display: flex;
+    padding: 10rem 1.5rem;
+  }
+  .reachmeout {
+    width: 50%;
+  }
+  .txt-3 {
+    font-size: 2.5rem;
+  }
+  .txt-4 {
+    font-size: 2.5rem;
+  }
+  .txt-5 {
+    font-size: 2.5rem;
+    margin-left: -1.6rem;
+  }
+}
