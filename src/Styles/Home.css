@@ -4,12 +4,13 @@ body {
   background: white;
 }
 .container {
-  height: 50px;
+  height: 85vh;
   display: flex;
   justify-content: space-between;
   padding: 7rem 3rem;
   box-sizing: border-box;
   flex-direction: row;
+  overflow: hidden;
 }
 .img-body {
   box-sizing: border-box;
@@ -103,23 +104,13 @@ body {
     padding: 8rem 1.5rem;
   }
   .greetings {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .name-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .field {
     font-size: 0.7rem;
-  }
-
-  @keyframes animated-text__1 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 20rem;
-      border-right-color: white;
-    }
   }
 
   @keyframes animated-text__2 {
@@ -132,11 +123,12 @@ body {
   }
   .img-fluid {
     padding: 6rem 0rem;
-    height: 200px;
+    height: 50vh;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1068px) {
   .container {
+    height: 85vh;
     display: flex;
     padding: 13rem 1.5rem;
   }
@@ -149,15 +141,6 @@ body {
   .field {
     font-size: 0.9rem;
   }
-  @keyframes animated-text__1 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 23rem;
-      border-right-color: white;
-    }
-  }
 
   @keyframes animated-text__2 {
     from {
@@ -168,8 +151,8 @@ body {
     }
   }
   .img-fluid {
-    margin-left: -110px;
-    width: 150%;
-    height: 450px;
+    margin-left: 0px;
+    width: 600px;
+    height: 30vh;
   }
 }

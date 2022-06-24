@@ -1,3 +1,10 @@
+/* .container-navbar {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 50;
+} */
 legend,
 label,
 input,
@@ -100,7 +107,6 @@ a {
   z-index: 30;
   transform: translateX(-100%);
   transition: all 0.4s ease-out;
-  overflow: hidden;
 }
 
 .menu-link {
