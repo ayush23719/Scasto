@@ -5,6 +5,12 @@
   overflow: hidden;
   z-index: 50;
 } */
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
 legend,
 label,
 input,
