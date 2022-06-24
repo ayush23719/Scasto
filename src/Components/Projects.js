@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/Project.css'
+import '../Styles/Projects.css'
 
 export default function Projects() {
     // const myStyle = () => {
