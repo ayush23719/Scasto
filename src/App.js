@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import particlesConfig from './config/particlesConfig';
 import {
   BrowserRouter as Router,
