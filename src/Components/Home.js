@@ -34,7 +34,7 @@ export default function Home() {
                 </svg>
             </div>
 
-            <footer class="page-footer  unique-color-dark pt-1">
+            <footer class="page-footer  unique-color-dark ">
                 <div class="container">
                     <ul class="list-unstyled list-inline text-center py-2">
                         <h5>© 2022 Copyright: Scasto</h5>
