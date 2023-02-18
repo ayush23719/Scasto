@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/About.css'
-export default function About() {
+export default function Resume() {
     return (
         <>
             <div className="container-about">

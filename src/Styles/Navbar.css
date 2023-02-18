@@ -132,3 +132,9 @@ a {
   transform: translateX(0%);
   opacity: 0.98;
 }
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    height: 110vh;
+  }
+}

@@ -4,10 +4,10 @@ body {
   background: white;
 }
 .container-home {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
-  padding: 7rem 3rem;
+  padding: 7rem 2rem;
   box-sizing: border-box;
   flex-direction: row;
   overflow: hidden;
@@ -17,67 +17,20 @@ body {
   height: 700px;
 }
 .img-fluid {
-  width: 100%;
+  margin-left: 5rem;
+  width: 90%;
 }
 .body-text {
   height: 100px;
   width: 100%;
   box-sizing: border-box;
 }
-.name-text,
-.field {
-  white-space: nowrap;
-  overflow: hidden;
+.website-name {
+  color: #ffdf6c;
 }
-
-/* .name-text {
-  border-right: 2px solid rgb(255, 223, 108);
-  animation: animated-text__1 4s steps(30, end) 1s 1 normal both,
-    animated-cursor__1 900ms steps(70, end);
-} */
-.field {
-  border-right: 2px solid white;
-  animation: animated-text__2 4s steps(30, end) 1s 1 normal both,
-    animated-cursor__2 900ms steps(30, end) infinite;
-  /* -webkit-animation-delay: 5s;
-  animation-delay: 5s; */
-}
-
-/* @keyframes animated-cursor__1 {
-  from {
-    border-right-color: rgb(255, 223, 108);
-  }
-  to {
-    border-right-color: white;
-  }
-} */
-
-@keyframes animated-cursor__2 {
-  from {
-    border-right-color: white;
-  }
-  to {
-    border-right-color: rgb(255, 223, 108);
-  }
-}
-
-/* @keyframes animated-text__1 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 31rem;
-    border-right-color: white;
-  }
-} */
-
-@keyframes animated-text__2 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 8.3rem;
-  }
+.about {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .greetings {
@@ -92,112 +45,51 @@ body {
   padding: 0.5rem 0rem;
   font-weight: 600;
 }
-.field {
-  color: #3f3f3f;
-  display: block;
-  font-size: 1rem;
-}
-.waves {
-  position: relative;
-  width: 100%;
-  height: 10vh;
-  margin-bottom: -7px;
-  /*Fix for safari gap*/
-  min-height: 100px;
-  max-height: 400px;
-}
-/* Animation */
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
-}
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
-}
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
-}
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
-}
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
-}
-@keyframes move-forever {
-  0% {
-    transform: translate3d(-90px, 0, 0);
-  }
-  100% {
-    transform: translate3d(85px, 0, 0);
-  }
-}
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
-  .content {
-    height: 30vh;
-  }
-}
-
-/*Other*/
-
-.unique-color-dark {
-  background-color: #7289da !important;
-}
-
-.bg-light {
-  background-color: #7289da !important;
-}
-
-.navbar-brand {
-  color: white;
-}
-
-.custom-color {
-  background-color: #7289da !important;
+.footer {
+  z-index: -3;
+  position: absolute;
+  width: 95%;
+  bottom: 0;
+  height: 2.5rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 0.5rem;
 }
 @media screen and (max-width: 768px) {
   .container-home {
-    height: 75vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 8rem 1.5rem;
   }
   .greetings {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .name-text {
     font-size: 1.3rem;
   }
-  .field {
-    font-size: 0.7rem;
+  .about {
+    font-size: 1rem;
   }
 
-  @keyframes animated-text__2 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 5.6rem;
-    }
-  }
   .img-fluid {
+    margin-left: 3rem;
+    margin-top: 10rem;
     padding: 6rem 0rem;
     height: 50vh;
+  }
+  .footer {
+    margin-left: -1rem;
+    margin-bottom: -4rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1068px) {
   .container-home {
-    width: 100%;
-    height: 85vh;
+    width: 75vh;
+    height: 92vh;
     display: flex;
-    padding: 13rem 1.5rem;
+    padding: 10rem 2rem;
   }
   .greetings {
     font-size: 1.5rem;
@@ -205,25 +97,15 @@ body {
   .name-text {
     font-size: 1.7rem;
   }
-  .field {
-    font-size: 0.9rem;
+  .about {
+    font-size: 1.5rem;
   }
-
-  @keyframes animated-text__2 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 7.4rem;
-    }
-  }
-  .img-body {
-    height: 100vh;
-    width: 1000px;
+  .img-container {
+    margin-left: -120rem;
   }
   .img-fluid {
-    margin-left: 0px;
-    width: 120rem;
-    height: 30vh;
+    margin-top: 20rem;
+    padding: 6rem 0rem;
+    height: 50vh;
   }
 }

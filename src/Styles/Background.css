@@ -1,0 +1,45 @@
+.word-loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.word {
+  position: absolute;
+  font-size: 2.3rem;
+  color: #979595;
+  opacity: 0.5;
+  white-space: nowrap;
+  animation: word-fall 5s ease-in-out;
+}
+
+@keyframes word-fall {
+  from {
+    top: -10%;
+  }
+  to {
+    top: 110%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .word {
+    font-size: 1.5rem;
+    animation: word-fall 7s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1068px) {
+  .word {
+    font-size: 2rem;
+    animation: word-fall 7s ease-in-out;
+  }
+}
+
+@media (min-width: 1200px) {
+  .word {
+    font-size: 2.3rem;
+  }
+}
