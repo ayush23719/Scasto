@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: white;
+  z-index: 10;
 }
 .container-home {
   height: 80vh;
@@ -12,10 +13,7 @@ body {
   flex-direction: row;
   overflow: hidden;
 }
-.img-body {
-  box-sizing: border-box;
-  height: 700px;
-}
+
 .img-fluid {
   margin-left: 5rem;
   width: 90%;
@@ -45,17 +43,17 @@ body {
   padding: 0.5rem 0rem;
   font-weight: 600;
 }
-.footer {
-  z-index: -3;
+.footer-home {
   position: absolute;
+  z-index: -3;
   width: 95%;
-  bottom: 0;
-  height: 2.5rem;
+  bottom: -rem;
   background-color: white;
   color: black;
   text-align: center;
-  padding-top: 0.5rem;
+  padding-top: 1.5rem;
 }
+
 @media screen and (max-width: 768px) {
   .container-home {
     height: 100vh;
@@ -79,11 +77,15 @@ body {
     padding: 6rem 0rem;
     height: 50vh;
   }
-  .footer {
-    margin-left: -1rem;
-    margin-bottom: -4rem;
+  .footer-home {
+    bottom: -5rem;
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    font-size: 1rem;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 1068px) {
   .container-home {
     width: 75vh;

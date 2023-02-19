@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/Projects.css'
-
 export default function Projects() {
     // const myStyle = () => {
     //     document.body.style.overflow = "scroll-y";
@@ -74,6 +73,9 @@ export default function Projects() {
                         </div>
                     </li>
                 </ul>
+                <footer className="footer-projects">
+                    <p className="end-text">Made with  ❤️  By Ayush</p>
+                </footer>
             </div>
 
         </>

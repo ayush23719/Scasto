@@ -5,9 +5,9 @@ import { ReactComponent as MySVG } from '../Assets/home-icon.svg';
 
 export default function Home() {
     return (
-        <>
+        <><Background />
             <div className="container-home">
-                <Background />
+
                 <header className="body-text" >
                     <span className="greetings">
                         Hello,
@@ -30,12 +30,11 @@ export default function Home() {
                 <div className="img-container">
                     <MySVG className="img-fluid" />
                 </div>
-                <div className="footer">
-                    <span className="end-text">Made with  ❤️  By Ayush</span>
-                </div>
+
             </div>
-
-
+            <footer className="footer-home">
+                <p className="end-text">Made with  ❤️  By Ayush</p>
+            </footer>
         </>
     )
 }

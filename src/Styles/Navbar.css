@@ -135,6 +135,6 @@ a {
 
 @media screen and (max-width: 768px) {
   .sidebar {
-    height: 110vh;
+    height: 100vh;
   }
 }
