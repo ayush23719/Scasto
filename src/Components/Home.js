@@ -2,8 +2,18 @@ import React from 'react'
 import '../Styles/Home.css'
 import Background from './Background';
 import { ReactComponent as MySVG } from '../Assets/home-icon.svg';
+import Lottie from 'react-lottie';
+import animationData from '../Assets/coder';
 
 export default function Home() {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <><Background />
             <div className="container-home">
@@ -28,7 +38,9 @@ export default function Home() {
 
                 </header>
                 <div className="img-container">
-                    <MySVG className="img-fluid" />
+                    <Lottie
+                        options={defaultOptions}
+                    />
                 </div>
 
             </div>

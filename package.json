@@ -15,8 +15,10 @@
     "react-bootstrap-buttons": "^1.0.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.1.0",
+    "react-lottie": "^1.2.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-social-icons": "^5.15.0",
     "sass": "^1.52.1"
   },
   "scripts": {

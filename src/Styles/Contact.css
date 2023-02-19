@@ -1,8 +1,8 @@
 .container-contact {
-  height: 50px;
+  height: 50vh;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 3rem;
+  padding: 5rem 3rem;
   box-sizing: border-box;
   flex-direction: row;
 }
@@ -28,8 +28,9 @@
   color: #ffdf6c;
 }
 .contact-text {
+  text-align: center;
   font-size: 1.2rem;
-  margin-left: 6rem;
+  margin-left: 0rem;
 }
 .contact-img {
   box-sizing: border-box;
@@ -83,7 +84,7 @@
   }
   .contact-text {
     font-size: 1rem;
-    width: 8rem;
+    width: 100%;
     margin-left: 0rem;
   }
   .contact-fluid {
@@ -154,4 +155,12 @@
     width: auto;
     height: 450px;
   }
+}
+.socials {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 20rem;
+  margin-top: 15rem;
 }
