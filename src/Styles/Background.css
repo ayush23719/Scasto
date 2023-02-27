@@ -13,28 +13,30 @@
   color: #979595;
   opacity: 0.5;
   white-space: nowrap;
-  animation: word-fall 5s ease-in-out;
+  animation: word-rise 8s ease-in-out; /* change animation name */
 }
 
-@keyframes word-fall {
+@keyframes word-rise {
+  /* change keyframe name */
   from {
-    top: -10%;
+    bottom: -10%; /* change 'top' to 'bottom' */
   }
   to {
-    top: 110%;
+    bottom: 110%; /* change 'top' to 'bottom' */
   }
 }
+
 @media screen and (max-width: 768px) {
   .word {
     font-size: 1.5rem;
-    animation: word-fall 7s ease-in-out;
+    animation: word-rise 7s ease-in-out; /* change animation name */
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1068px) {
   .word {
     font-size: 2rem;
-    animation: word-fall 7s ease-in-out;
+    animation: word-rise 7s ease-in-out; /* change animation name */
   }
 }
 

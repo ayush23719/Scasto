@@ -3,7 +3,6 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import Resume from './Components/Resume';
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,8 +23,7 @@ function App() {
           </Route>
           <Route path="/Scasto/Contact" element={<Contact />}>
           </Route>
-          <Route path="/Scasto/about" element={<Resume />}>
-          </Route>
+
         </Routes>
       </Router>
     </>

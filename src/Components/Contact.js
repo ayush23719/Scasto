@@ -3,6 +3,7 @@ import '../Styles/Contact.css';
 import { SocialIcon } from 'react-social-icons';
 import Lottie from 'react-lottie';
 import animationData from '../Assets/contact';
+
 function Contact() {
   const defaultOptions = {
     loop: true,
@@ -14,6 +15,7 @@ function Contact() {
   };
   return (
     <>
+
       <div className="contact-container">
         <div className="contact-info">
           <h1>Contact <span style={{ color: '#ffdf6c', fontWeight: 800 }}>Me</span></h1>

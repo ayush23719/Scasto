@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import '../Styles/Background.css'
+import '../Styles/Background.css';
+
 const WORDS = ['HTML', 'CSS', 'JavaScript', 'Node.js', 'React', 'PHP', 'jQuery', 'Firebase', 'MySQL'];
 
 function Background() {
@@ -13,7 +14,7 @@ function Background() {
                 newWords.push({
                     word: WORDS[Math.floor(Math.random() * WORDS.length)],
                     x: Math.random() * window.innerWidth,
-                    y: -Math.random() * window.innerHeight - 50
+                    y: window.innerHeight + Math.random() * 50 // change initial y value to be positive
                 });
             }
 
@@ -29,7 +30,7 @@ function Background() {
                 <span
                     className="word"
                     key={i}
-                    style={{ left: word.x, top: word.y, animationDelay: `${i * 0.1}s`, marginTop: '-30px' }}
+                    style={{ left: word.x, bottom: word.y, animationDelay: `${i * 0.1}s`, marginTop: '-30px' }} // use 'bottom' instead of 'top'
                 >
                     {word.word}
                 </span>

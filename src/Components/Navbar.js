@@ -40,7 +40,7 @@ export default function Navbar(props) {
 
                         <li><Link className="menu-link" to="/Scasto/projects" onClick={() => { handleNav(); handleOverflow(); }}>{props.projects}</Link></li>
                         <li><Link className="menu-link" to="/Scasto/contact" onClick={() => { handleNav(); handleOverflow(); }}>{props.contact}</Link></li>
-                        <li><Link className="menu-link" to="/Scasto/about" onClick={() => { handleNav(); handleOverflow(); }}>{props.resume}</Link></li>
+                        <li><a className="menu-link" href='https://www.drive.google.com/file/d/1r_ruHVWj3urN7FFZTVhujuNpXA2_MUh8/view?usp=sharing' onClick={() => { handleNav(); handleOverflow(); }}>Resume</a></li>
                     </ul>
                 </aside>
             </div>
