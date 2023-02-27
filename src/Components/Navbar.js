@@ -26,7 +26,7 @@ export default function Navbar(props) {
     return (
         <>
             <div className="container-navbar">
-                <header className="logo">Scasto</header>
+                <header className="logo"><Link style={{ color: 'inherit' }} to="/Scasto">Scasto</Link></header>
                 <input type="checkbox" id="toggle" className={`input-toggler`} checked={checked} onChange={(e) => setChecked(e.target.checked)} onClick={setOverflow} />
                 <label for="toggle" className="menu-toggler">
                     <span className="menu-toggler-line"></span>
