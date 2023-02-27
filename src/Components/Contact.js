@@ -1,7 +1,17 @@
 import React from 'react'
 import '../Styles/Contact.css'
 import { SocialIcon } from 'react-social-icons';
+import Lottie from 'react-lottie';
+import animationData from '../Assets/contact';
 export default function Contact() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <>
       <div className="container-contact">
@@ -18,7 +28,7 @@ export default function Contact() {
           <SocialIcon url="mailto:ayush23719@gmail.com" />
         </div>
         <div className="contact-img">
-          <img src={require('../Assets/contact-img.png')} className="contact-fluid" alt="" />
+          <Lottie options={defaultOptions} />
         </div>
 
       </div>

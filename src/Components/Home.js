@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Styles/Home.css'
 import Background from './Background';
-import { ReactComponent as MySVG } from '../Assets/home-icon.svg';
 import Lottie from 'react-lottie';
 import animationData from '../Assets/coder';
 

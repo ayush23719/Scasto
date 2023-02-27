@@ -1,12 +1,7 @@
 import React from 'react'
 import '../Styles/Projects.css'
 export default function Projects() {
-    // const myStyle = () => {
-    //     document.body.style.overflow = "scroll-y";
-    // }
-    // useEffect(() => {
-    //     document.body.style.overflow = "scroll-y";
-    // }, []);
+
     return (
         <>
             <div class="main" >
