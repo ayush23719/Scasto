@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/Background.css';
 
-const WORDS = ['HTML', 'CSS', 'JavaScript', 'Node.js', 'React', 'PHP', 'jQuery', 'Firebase', 'MySQL'];
+const WORDS = ['React Native', 'MongoDB', 'JavaScript', 'Node.js', 'React', 'PHP', 'jQuery', 'Firebase', 'MySQL'];
 
 function Background() {
     const [words, setWords] = useState([]);
