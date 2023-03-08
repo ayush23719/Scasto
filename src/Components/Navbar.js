@@ -26,7 +26,7 @@ export default function Navbar(props) {
     return (
         <>
             <div className="container-navbar">
-                <header className="logo"><Link style={{ color: 'inherit' }} to="/Scasto">Scasto</Link></header>
+                <header className="logo"><Link style={{ color: 'inherit' }} to="/">Scasto</Link></header>
                 <input type="checkbox" id="toggle" className={`input-toggler`} checked={checked} onChange={(e) => setChecked(e.target.checked)} onClick={setOverflow} />
                 <label for="toggle" className="menu-toggler">
                     <span className="menu-toggler-line"></span>
@@ -36,10 +36,10 @@ export default function Navbar(props) {
 
                 <aside className={`sidebar `} >
                     <ul className="menu">
-                        <li><Link className="menu-link" to="/Scasto" onClick={() => { handleNav(); handleOverflow(); }}>{props.home}</Link></li>
+                        <li><Link className="menu-link" to="/" onClick={() => { handleNav(); handleOverflow(); }}>{props.home}</Link></li>
 
-                        <li><Link className="menu-link" to="/Scasto/projects" onClick={() => { handleNav(); handleOverflow(); }}>{props.projects}</Link></li>
-                        <li><Link className="menu-link" to="/Scasto/contact" onClick={() => { handleNav(); handleOverflow(); }}>{props.contact}</Link></li>
+                        <li><Link className="menu-link" to="/projects" onClick={() => { handleNav(); handleOverflow(); }}>{props.projects}</Link></li>
+                        <li><Link className="menu-link" to="/contact" onClick={() => { handleNav(); handleOverflow(); }}>{props.contact}</Link></li>
                         <li><a className="menu-link" href='https://www.drive.google.com/file/d/1r_ruHVWj3urN7FFZTVhujuNpXA2_MUh8/view?usp=sharing' onClick={() => { handleNav(); handleOverflow(); }}>Resume</a></li>
                     </ul>
                 </aside>
