@@ -10,7 +10,7 @@ export default function Projects() {
                 <ul class="cards">
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/sustainable.jpg')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/sustainable.jpg" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">Sustainable</h2>
                                 <p class="card_text">A knowledge website for the indigenous communities around the world. </p>
@@ -20,7 +20,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/kaizen.jpg')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/kaizen.jpg" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">KaiZen</h2>
                                 <p class="card_text">A web based app aimed towards helping people improve their mental health.</p>
@@ -30,7 +30,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/soundnode.jpg')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/soundnode.jpg" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">Soundnode</h2>
                                 <p class="card_text">Angular based music web app. Listen to your music online. (built using SoundCloud API)</p>
@@ -40,7 +40,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/textutils.jpg')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/textutils.jpg" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">TextUtils</h2>
                                 <p class="card_text">A REACT based web app which can be handy for tasks like text-to-speech, count words etc.</p>
@@ -50,7 +50,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/heartbeat.jpg')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/heartbeat.jpg" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">Heartbeat</h2>
                                 <p class="card_text">An online music storage and searching website. Search for music online and store them!</p>
@@ -60,7 +60,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/newsmonkey.png')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/newsmonkey.png" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">NewsMonkey</h2>
                                 <p class="card_text">A news website which shows latest headlines around the world. (built using NewsAPI)</p>
@@ -70,7 +70,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/BusKaro.png')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/BusKaro.png" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">BusKaro</h2>
                                 <p class="card_text">An app which tracks the location, route, timing and seat occupancy of a local buses.</p>
@@ -80,7 +80,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/DormDeals.png')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/DormDeals.png" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">DormDeals</h2>
                                 <p class="card_text">Sell your old hostel stuff with this app. Just post the picture, description and contact details.</p>
@@ -90,7 +90,7 @@ export default function Projects() {
                     </li>
                     <li class="cards_item">
                         <div class="card">
-                            <div class="card_image"><img src={require('../Assets/Confab.png')} /></div>
+                            <div class="card_image"><img src="https://www.linkpicture.com/q/Confab.png" /></div>
                             <div class="card_content">
                                 <h2 class="card_title">Confab</h2>
                                 <p class="card_text">Create a chat room and start chatting! Share the link with others for them to join.</p>
