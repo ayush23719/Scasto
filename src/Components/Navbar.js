@@ -40,7 +40,7 @@ export default function Navbar(props) {
 
                         <li><Link className="menu-link" to="/projects" onClick={() => { handleNav(); handleOverflow(); }}>{props.projects}</Link></li>
                         <li><Link className="menu-link" to="/contact" onClick={() => { handleNav(); handleOverflow(); }}>{props.contact}</Link></li>
-                        <li><a className="menu-link" href='https://www.drive.google.com/file/d/1r_ruHVWj3urN7FFZTVhujuNpXA2_MUh8/view?usp=sharing' onClick={() => { handleNav(); handleOverflow(); }}>Resume</a></li>
+                        <li><a className="menu-link" href='https://drive.google.com/file/d/1mnRJi-pzCxvQykK0ozNu1v5Hy9qid1xK/view?usp=share_link' onClick={() => { handleNav(); handleOverflow(); }}>Resume</a></li>
                     </ul>
                 </aside>
             </div>
