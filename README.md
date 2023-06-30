@@ -22,7 +22,7 @@ Scasto is built using the following technologies:
 - **Bootstrap:** Bootstrap is utilized for responsive grid layouts and pre-built components, enhancing the website's responsiveness and overall design.
 - **FontAwesome:** FontAwesome provides a wide range of icons that are used to enhance the visual elements of the website.
 - **React Router:** React Router is used for implementing client-side routing, enabling smooth navigation between different sections of the portfolio.
-- - **LottieFiles:** LottieFiles is used to add dynamic and engaging animations to the website, creating a visually captivating experience.
+- **LottieFiles:** LottieFiles is used to add dynamic and engaging animations to the website, creating a visually captivating experience.
 
 ## Getting Started
 
